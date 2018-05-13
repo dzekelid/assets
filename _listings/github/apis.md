@@ -43,17 +43,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/repos-owner-repo-releases-id-assets-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/repos-owner-repo-releases-id-assets-get-postman.md
-- name: Github Delete Repos Owner Repo Releases Assets
-  description: Delete a release asset
+- name: Github Get Repos Owner Repo Releases Assets
+  description: Get a single release asset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Assets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/repos-owner-repo-releases-assets-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/repos-owner-repo-releases-assets-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/repos-owner-repo-releases-assets-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/repos-owner-repo-releases-assets-id-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
