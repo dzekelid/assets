@@ -13,20 +13,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/fidelity-investments/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Fidelity Investments
-  x-api-slug: fidelity-investments
-  description: Fidelity Investments offers Financial Planning and Advice, Retirement
-    Plans, Wealth Management Services, Trading and Brokerage services, and a wide
-    range of investment products including Mutual Funds, ETFs, Fixed income Bonds
-    and CDs and much more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28319-www-fidelity-com.jpg
-  humanURL: https://www.fidelity.com
-  baseURL: https:///
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/fidelity-investments/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/fidelity-investments

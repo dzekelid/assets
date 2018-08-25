@@ -12,108 +12,15 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Predix Access Control
-  x-api-slug: predix-access-control
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://predix-acs.run.aws-usw02-pr.ice.predix.io//
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Analytics Catalog
-  x-api-slug: predix-analytics-catalog
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Analytics Framework
-  x-api-slug: predix-analytics-framework
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Analytics Runtime
-  x-api-slug: predix-analytics-runtime
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix AppHub ARCS
-  x-api-slug: predix-apphub-arcs
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://predix-apphub-arcs-prod.run.aws-usw02-pr.ice.predix.io//api
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Assets
-  x-api-slug: predix-assets
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix BlockChain
-  x-api-slug: predix-blockchain
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Blockchain Data Integrity
-  x-api-slug: predix-blockchain-data-integrity
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://bcdi-proxy-service.run.aws-usw02-pr.ice.predix.io//
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Data Services
-  x-api-slug: predix-data-services
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://time-series-service-doc.grc-apps.svc.ice.ge.com//
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
+- name: Dynamic Mapping - Returns collection assets in specified bounding box
+  x-api-slug: v1collectionscollectionnamespatialquerybboxinteracts-get
+  description: |-
+    Returns all assets in the specified collection whose latest location exist within the specified bounding box.
+    The bounding box is defined by two coordinates in the EPSG:4326 (WGS84) (for further details see
+    http://epsg.io/4326):
+    * left (longitude), bottom (latitude)
+    * right (longitude), top (latitude)
+    The results can be filtered by including key and value pairs to match in location meta data.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
@@ -123,559 +30,76 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
+- name: Dynamic Mapping - Returns clustered assets in a specified bounding box
+  x-api-slug: v1collectionscollectionnamecluster-get
+  description: |-
+    Returns clusters of assets in the specified collection whose latest location exists within the specified
+    bounding box. The clusters can also optionally be filtered by a single key-value pair.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
+- name: Dynamic Mapping - List all asset collections for a customer
+  x-api-slug: v1collections-get
+  description: |-
+    Returns an array containing the names of all asset collections for the
+    specified customer.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
+- name: Dynamic Mapping - Return all asset ids for a collection
+  x-api-slug: v1collectionscollectionname-get
+  description: |-
+    Returns the collection name and a list of ids of the assets that belong to
+    the collection.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
+- name: Dynamic Mapping - List all asset collections for a customer
+  x-api-slug: v1collections-get
+  description: |-
+    Returns an array containing the names of all asset collections for the
+    specified customer.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
+- name: Dynamic Mapping - Return all asset ids for a collection
+  x-api-slug: v1collectionscollectionname-get
+  description: |-
+    Returns the collection name and a list of ids of the assets that belong to
+    the collection.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https:////
   tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-get-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetidquery-post-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetidquery-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetidquery-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetidquery-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetidquery-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetidquery-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-get-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: dynamic-mapping-services-for-geospatial-data-management-and-viewing
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamespatialquerybboxinteracts-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnamecluster-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetidquery-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collections-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionname-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/v1collectionscollectionnameassetsassetidquery-post-openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Dynamic Time Warping
-  x-api-slug: predix-dynamic-time-warping
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////v1
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Enterprise Connect
-  x-api-slug: predix-enterprise-connect
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://ec-predix-service-osaka.run.aws-usw02-pr.ice.predix.io//v1
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Event Audit Trail
-  x-api-slug: predix-event-audit-trail
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://event-audit-trail.run.aws-usw02-pr.ice.predix.io//
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Fingerprint of Things Object Tagging Service
-  x-api-slug: predix-fingerprint-of-things-object-tagging-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://fingerprint-of-things-ga1-dast.run.aws-usw02-pr.ice.predix.io//
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Insights
-  x-api-slug: predix-insights
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://insights-api.data-services.predix.io//api/v1
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Notification Service
-  x-api-slug: predix-notification-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://ev-notification-service.run.aws-usw02-pr.ice.predix.io//
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Nurego
-  x-api-slug: predix-nurego
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://api.nurego.com//
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix SAS ESP Predix Service
-  x-api-slug: predix-sas-esp-predix-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://sas-proxy.run.aws-usw02-pr.ice.predix.io//
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Tenant Management
-  x-api-slug: predix-tenant-management
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://predix-tms.run.aws-usw02-pr.ice.predix.io//
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix ThetaRay Predix Service
-  x-api-slug: predix-thetaray-predix-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://thetaray-anomaly-service.run.aws-usw02-pr.ice.predix.io//
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
-- name: Predix Views
-  x-api-slug: predix-views
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////v1
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://predicthq.api.gallery.streamdata.io

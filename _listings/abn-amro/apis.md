@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/abn-amro/apis.md
 specificationVersion: "0.14"
-apis:
-- name: ABN AMRO
-  x-api-slug: abn-amro
-  description: Welcome to ABN AMRO. ABN AMRO is an all-round Dutch bank that offers
-    a full range of products and services to retail, private, corporate clients.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/abn-amro-bank-nv.gif
-  humanURL: https://www.abnamro.com
-  baseURL: https:///
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/abn-amro/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/abn-amro

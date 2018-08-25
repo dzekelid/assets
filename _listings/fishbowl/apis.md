@@ -12,19 +12,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/fishbowl/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Fishbowl
-  x-api-slug: fishbowl
-  description: 'Fishbowl, the #1 inventory management software for QuickBooks, offers
-    multi-location tracking, manufacturing, barcoding and more. Also runs standalone
-    for asset tracking.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/786-fishbowl.jpg
-  humanURL: http://www.fishbowlinventory.com/developer-network/tools
-  baseURL: https:///
-  tags: Assets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/fishbowl/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.fishbowlinventory.com
