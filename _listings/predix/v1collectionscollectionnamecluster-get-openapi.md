@@ -8,6 +8,7 @@ info:
     Returns clusters of assets in the specified collection whose latest location exists within the specified
     bounding box. The clusters can also optionally be filtered by a single key-value pair.
   version: 1.0.0
+host: time-series-service-doc.grc-apps.svc.ice.ge.com
 basePath: /
 schemes:
 - http

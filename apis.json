@@ -1,774 +1,204 @@
 {
-	"name": "Kentico Cloud",
-	"x-slug": "kentico-cloud",
-	"description": "Kentico Cloud is the #1 CMS that enables digital teams to collaborate quickly to create engaging personalized experiences across any device. Free 30-day trial!",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-	"x-kinRank": "7",
-	"x-alexaRank": "369033",
-	"tags": "Assets",
-	"created": "2018-08-25",
-	"modified": "2018-08-25",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/apis.md",
+	"name": "Streadata.io API Gallery - Assets",
+	"description": "This is a repository of assets APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/assets.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://assets.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "Fluxiom",
+			"x-api-slug": "fluxiom",
+			"description": "Fluxiom offers seamless online file management in the cloud. Keep your files private, share them with a select audience or broadcast them to the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxiom.jpg",
+			"humanURL": "http://fluxiom.com",
+			"baseURL": "https://{subdomain}.fluxiom.com//api/{format}",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/fluxiom/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "Fishbowl",
+			"x-api-slug": "fishbowl",
+			"description": "Fishbowl, the #1 inventory management software for QuickBooks, offers multi-location tracking, manufacturing, barcoding and more. Also runs standalone for asset tracking.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/786-fishbowl.jpg",
+			"humanURL": "http://www.fishbowlinventory.com/developer-network/tools",
+			"baseURL": "https:///",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/fishbowl/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/instructure/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "UK National Archives",
+			"x-api-slug": "uk-national-archives",
+			"description": "The National Archives (TNA) is a non-ministerial government department. Its parent department is the Department for Culture, Media and Sport of the United Kingdom of Great Britain and Northern Ireland. It is the official archive of the UK government and for England and Wales; and guardian of some of the nations most iconic documents, dating back more than 1,000 years. There are separate national archives for Scotland (the National Records of Scotland) and Northern Ireland (the Public Record Office of Northern Ireland).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg",
+			"humanURL": "http://discovery.nationalarchives.gov.uk/SearchUI/api.htm",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/uk-national-archives/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "Reddit",
+			"x-api-slug": "reddit",
+			"description": "Reddit is a community of millions of users engaging in the creation of content and the sharing of conversation across tens of thousands of topics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg",
+			"humanURL": "http://www.reddit.com",
+			"baseURL": "https:///",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/reddit/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/shopify/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/lykke/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "ABN AMRO",
+			"x-api-slug": "abn-amro",
+			"description": "Welcome to ABN AMRO. ABN AMRO is an all-round Dutch bank that offers a full range of products and services to retail, private, corporate clients.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/abn-amro-bank-nv.gif",
+			"humanURL": "https://www.abnamro.com",
+			"baseURL": "https:///",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/abn-amro/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "OCBC Bank",
+			"x-api-slug": "ocbc-bank",
+			"description": "The OCBC Bank group comprises a family of companies owned by Singapores longest established local bank. To address the diversity across cultures and geographies, OCBC Bank has expanded and acquired entities beyond the world of traditional commercial banking. By understanding our customers needs, we develop convenient and effective technologies to improve the user experience. Today, through APIs that are simple to manage, we offer this convenience to you.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28117-ocbc-bank.jpg",
+			"humanURL": "https://api.ocbc.com",
+			"baseURL": "https:///",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/ocbc-bank/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "Fidelity Investments",
+			"x-api-slug": "fidelity-investments",
+			"description": "Fidelity Investments offers Financial Planning and Advice, Retirement Plans, Wealth Management Services, Trading and Brokerage services, and a wide range of investment products including Mutual Funds, ETFs, Fixed income Bonds and CDs and much more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28319-www-fidelity-com.jpg",
+			"humanURL": "https://www.fidelity.com",
+			"baseURL": "https:///",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/fidelity-investments/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
+			"name": "Akeneo",
+			"x-api-slug": "akeneo",
+			"description": "Our team has been working in the e-commerce industry for over 10 years. As we were helping brands to grow their online businesses, we realized that they were all struggling with complex or archaic systems to manage product information. We founded Akeneo in 2013 with the idea that products are the most important assets in a company and that many merchants lack a tool to help them manage and leverage this crucial asset. Merchants needed a tool that was designed for marketers and flexible enough to be integrated with any third-party application.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png",
+			"humanURL": "https://akeneo.com",
+			"baseURL": "https://example.com//api",
+			"tags": "Assets",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Kentico Cloud",
-			"x-api-slug": "kentico-cloud",
-			"description": "this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
-			"tags": "SaaS, Technology, Enterprise, Relative Data, Service API, Cloud",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsexternalidwhichbrewingfitsyou-delete-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assets-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/openapi.md"
 				}
 			]
 		},
@@ -776,75 +206,75 @@
 			"name": "Kentico Cloud",
 			"x-api-slug": "kentico-cloud",
 			"description": "Kentico Cloud is the #1 CMS that enables digital teams to collaborate quickly to create engaging personalized experiences across any device. Free 30-day trial!",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28870-kenticocloud-com.jpg",
-			"humanURL": "https:\/\/kenticocloud.com\/",
-			"baseURL": "https:\/\/deliver.kenticocloud.com\/\/",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg",
+			"humanURL": "https://kenticocloud.com/",
+			"baseURL": "https://deliver.kenticocloud.com//",
 			"tags": "Assets",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/assets\/master\/_listings\/kentico-cloud\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-blog-rss",
-			"url": "https:\/\/kenticocloud.com\/rss"
-		},
-		{
-			"type": "x-github",
-			"url": "https:\/\/github.com\/kentico"
-		},
-		{
-			"type": "x-postman-collection",
-			"url": "https:\/\/app.getpostman.com\/run-collection\/519dd5697b81ba7336a3"
-		},
-		{
-			"type": "x-website",
-			"url": "https:\/\/kenticocloud.com\/"
-		},
-		{
-			"type": "x-api-gallery",
-			"url": "http:\/\/kaltura.api.gallery.streamdata.io"
-		},
-		{
-			"type": "x-api-stack",
-			"url": "http:\/\/kentico.cloud.stack.network"
-		},
-		{
-			"type": "x-blog",
-			"url": "https:\/\/kenticocloud.com\/blog"
-		},
-		{
-			"type": "x-crunchbase",
-			"url": "https:\/\/crunchbase.com\/organization\/kentico"
-		},
-		{
-			"type": "x-partners",
-			"url": "https:\/\/kenticocloud.com\/partners"
-		},
-		{
-			"type": "x-pricing",
-			"url": "https:\/\/kenticocloud.com\/pricing"
-		},
-		{
-			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/kenticocloud"
-		},
-		{
-			"type": "x-website",
-			"url": "https:\/\/kenticocloud.com"
-		}
-	],
+	"tags": "Assets",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "Fluxiom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/fluxiom/apis.yaml"
+		},
+		{
+			"name": "Fishbowl",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/fishbowl/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "UK National Archives",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/uk-national-archives/apis.yaml"
+		},
+		{
+			"name": "Reddit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/reddit/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/shopify/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "ABN AMRO",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/abn-amro/apis.yaml"
+		},
+		{
+			"name": "OCBC Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/ocbc-bank/apis.yaml"
+		},
+		{
+			"name": "Fidelity Investments",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/fidelity-investments/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "Akeneo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/apis.yaml"
+		},
+		{
+			"name": "Kentico Cloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/apis.yaml"
 		}
 	]
 }

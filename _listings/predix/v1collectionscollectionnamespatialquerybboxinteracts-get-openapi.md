@@ -12,6 +12,7 @@ info:
     * right (longitude), top (latitude)
     The results can be filtered by including key and value pairs to match in location meta data.
   version: 1.0.0
+host: time-series-service-doc.grc-apps.svc.ice.ge.com
 basePath: /
 schemes:
 - http

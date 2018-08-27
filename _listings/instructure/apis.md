@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Assets
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
@@ -64,6 +64,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/instructure/usersidcolorsasset-string-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/instructure/usersidcolorsasset-string-put-openapi.md
+- name: Instructure Canvas Users API - Update custom color
+  x-api-slug: usersidcolorsasset-string-put
+  description: Update custom color.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/instructure/usersidcolorsasset-string-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/instructure/usersidcolorsasset-string-put-openapi.md
+- name: Instructure Canvas Users API - Get custom color
+  x-api-slug: usersidcolorsasset-string-get
+  description: Get custom color.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/instructure/usersidcolorsasset-string-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/instructure/usersidcolorsasset-string-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://instagram.api.gallery.streamdata.io

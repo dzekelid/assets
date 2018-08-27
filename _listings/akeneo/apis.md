@@ -12,11 +12,957 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "164081"
 tags: Assets
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Official Akeneo PIM API - assets (2.1 only)
+  x-api-slug: restv1assets-get
+  description: Assets (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assets-get-openapi.md
+- name: Official Akeneo PIM API - assets (2.1 only)
+  x-api-slug: restv1assets-patch
+  description: Assets (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assets-patch-openapi.md
+- name: Official Akeneo PIM API - asset (2.1 only)
+  x-api-slug: restv1assetspaint-get
+  description: Assuming that the given code is the code of an existing asset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaint-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaint-get-openapi.md
+- name: Official Akeneo PIM API - asset (2.1 only)
+  x-api-slug: restv1assetspaint-patch
+  description: Asset (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaint-patch-openapi.md
+- name: Official Akeneo PIM API - asset (2.1 only)
+  x-api-slug: restv1assets-post
+  description: Assuming that there is no "new_asset" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assets-post-openapi.md
+- name: Official Akeneo PIM API - asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocale-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocale-get-openapi.md
+- name: Official Akeneo PIM API - asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocale-post
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocale-post-openapi.md
+- name: Official Akeneo PIM API - download asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-get-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-post
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-post-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesasset-main-catalog-get
+  description: Assuming that the given code is the code of an existing asset category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategoriesasset-main-catalog-get-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-get
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-patch
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - asset tag (2.1 only)
+  x-api-slug: restv1assettagscolored-get
+  description: Assuming that the given code is the code of an existing asset tag
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettagscolored-get-openapi.md
+- name: Official Akeneo PIM API - asset tag (2.1 only)
+  x-api-slug: restv1assettagscolored-patch
+  description: Asset tag (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettagscolored-patch-openapi.md
+- name: Official Akeneo PIM API - asset tags (2.1 only)
+  x-api-slug: restv1assettags-get
+  description: Asset tags (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettags-get-openapi.md
+- name: Official Akeneo PIM API - asset (2.1 only)
+  x-api-slug: restv1assetspaint-get
+  description: Assuming that the given code is the code of an existing asset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaint-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaint-get-openapi.md
+- name: Official Akeneo PIM API - asset (2.1 only)
+  x-api-slug: restv1assetspaint-patch
+  description: Asset (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaint-patch-openapi.md
+- name: Official Akeneo PIM API - asset (2.1 only)
+  x-api-slug: restv1assets-post
+  description: Assuming that there is no "new_asset" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assets-post-openapi.md
+- name: Official Akeneo PIM API - asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocale-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocale-get-openapi.md
+- name: Official Akeneo PIM API - asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocale-post
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocale-post-openapi.md
+- name: Official Akeneo PIM API - download asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-get-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-post
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-post-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesasset-main-catalog-get
+  description: Assuming that the given code is the code of an existing asset category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategoriesasset-main-catalog-get-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-get
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-patch
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - asset tag (2.1 only)
+  x-api-slug: restv1assettagscolored-get
+  description: Assuming that the given code is the code of an existing asset tag
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettagscolored-get-openapi.md
+- name: Official Akeneo PIM API - asset tag (2.1 only)
+  x-api-slug: restv1assettagscolored-patch
+  description: Asset tag (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettagscolored-patch-openapi.md
+- name: Official Akeneo PIM API - asset tags (2.1 only)
+  x-api-slug: restv1assettags-get
+  description: Asset tags (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettags-get-openapi.md
+- name: Official Akeneo PIM API - asset tags (2.1 only)
+  x-api-slug: restv1assettags-get
+  description: Asset tags (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettags-get-openapi.md
+- name: Official Akeneo PIM API - asset tags (2.1 only)
+  x-api-slug: restv1assettags-get
+  description: Asset tags (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettags-get-openapi.md
+- name: Official Akeneo PIM API - asset tags (2.1 only)
+  x-api-slug: restv1assettags-get
+  description: Asset tags (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettags-get-openapi.md
+- name: Official Akeneo PIM API - asset tags (2.1 only)
+  x-api-slug: restv1assettags-get
+  description: Asset tags (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettags-get-openapi.md
+- name: Official Akeneo PIM API - asset tag (2.1 only)
+  x-api-slug: restv1assettagscolored-patch
+  description: Asset tag (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettagscolored-patch-openapi.md
+- name: Official Akeneo PIM API - asset tag (2.1 only)
+  x-api-slug: restv1assettagscolored-patch
+  description: Asset tag (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettagscolored-patch-openapi.md
+- name: Official Akeneo PIM API - asset tag (2.1 only)
+  x-api-slug: restv1assettagscolored-patch
+  description: Asset tag (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettagscolored-patch-openapi.md
+- name: Official Akeneo PIM API - asset tag (2.1 only)
+  x-api-slug: restv1assettagscolored-get
+  description: Assuming that the given code is the code of an existing asset tag
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettagscolored-get-openapi.md
+- name: Official Akeneo PIM API - asset tag (2.1 only)
+  x-api-slug: restv1assettagscolored-get
+  description: Assuming that the given code is the code of an existing asset tag
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettagscolored-get-openapi.md
+- name: Official Akeneo PIM API - asset tag (2.1 only)
+  x-api-slug: restv1assettagscolored-get
+  description: Assuming that the given code is the code of an existing asset tag
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettagscolored-get-openapi.md
+- name: Official Akeneo PIM API - asset tag (2.1 only)
+  x-api-slug: restv1assettagscolored-get
+  description: Assuming that the given code is the code of an existing asset tag
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assettagscolored-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-patch
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-patch-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-patch
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-patch-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-patch
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-patch-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-patch
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-get
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-get-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-get
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-get-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-get
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategories-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesasset-main-catalog-get
+  description: Assuming that the given code is the code of an existing asset category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategoriesasset-main-catalog-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesasset-main-catalog-get
+  description: Assuming that the given code is the code of an existing asset category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategoriesasset-main-catalog-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesasset-main-catalog-get
+  description: Assuming that the given code is the code of an existing asset category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetcategoriesasset-main-catalog-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-post
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-post-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-post
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-post-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-post
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-post-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-post
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-post-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-get-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-get-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-get-openapi.md
+- name: Official Akeneo PIM API - asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocale-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocale-get-openapi.md
+- name: Official Akeneo PIM API - download asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocale-post
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocale-post-openapi.md
+- name: Official Akeneo PIM API - asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocale-post
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocale-post-openapi.md
+- name: Official Akeneo PIM API - asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocale-post
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocale-post-openapi.md
+- name: Official Akeneo PIM API - asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocale-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocale-get-openapi.md
+- name: Official Akeneo PIM API - asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocale-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaintreferencefilesnolocale-get-openapi.md
+- name: Official Akeneo PIM API - asset (2.1 only)
+  x-api-slug: restv1assets-post
+  description: Assuming that there is no "new_asset" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assets-post-openapi.md
+- name: Official Akeneo PIM API - asset (2.1 only)
+  x-api-slug: restv1assets-post
+  description: Assuming that there is no "new_asset" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assets-post-openapi.md
+- name: Official Akeneo PIM API - asset (2.1 only)
+  x-api-slug: restv1assetspaint-patch
+  description: Asset (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaint-patch-openapi.md
+- name: Official Akeneo PIM API - asset (2.1 only)
+  x-api-slug: restv1assetspaint-patch
+  description: Asset (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/akeneo/restv1assetspaint-patch-openapi.md
 - name: Official Akeneo PIM API - asset (2.1 only)
   x-api-slug: restv1assetspaint-get
   description: Assuming that the given code is the code of an existing asset

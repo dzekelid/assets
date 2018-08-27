@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kent
 x-kinRank: "7"
 x-alexaRank: "369033"
 tags: Assets
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,347 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assets-get-openapi.md
+- name: Kentico Cloud - View an asset by external ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-get
+  description: Retrieve information about a single asset specified by its external
+    ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-get-openapi.md
+- name: Kentico Cloud - Upsert an asset by external ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-put
+  description: "Add a new asset or update an existing asset specified by its external
+    ID.\r\n\r\n**Note:** If no asset with the specified external ID exists in the
+    project, the system will try to create one. For existing assets, the API updates
+    only the specified asset's descriptions and title."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-put-openapi.md
+- name: Kentico Cloud - Delete an asset by ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-delete
+  description: Removes an unused asset specified by its external ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-delete-openapi.md
+- name: Kentico Cloud - Add an asset
+  x-api-slug: assets-post
+  description: "Use a file reference to link an existing [binary file](https://developer.kenticocloud.com/v1/reference#content-management-api-upload-file)
+    to a new asset. You can also create assets by upserting (`PUT /assets/external-id/<external_id>`),
+    see [Upsert an asset](https://developer.kenticocloud.com/v1/reference#content-management-api-upsert-asset-by-external-id).\r\n\r\n**Note:**
+    Each binary file can be referenced only by a single asset."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assets-post-openapi.md
+- name: Kentico Cloud - View an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-get
+  description: "Modifies properties of an asset specified by its internal ID.\r\n\r\nNote:
+    This endpoint only allows updating of asset descriptions and title."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md
+- name: Kentico Cloud - Update an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-put
+  description: Retrieve a dynamically paginated list of assets.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md
+- name: Kentico Cloud - Delete an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-delete
+  description: Removes an unused asset specified by its internal ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md
+- name: Kentico Cloud - View an asset by external ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-get
+  description: Retrieve information about a single asset specified by its external
+    ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-get-openapi.md
+- name: Kentico Cloud - Upsert an asset by external ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-put
+  description: "Add a new asset or update an existing asset specified by its external
+    ID.\r\n\r\n**Note:** If no asset with the specified external ID exists in the
+    project, the system will try to create one. For existing assets, the API updates
+    only the specified asset's descriptions and title."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-put-openapi.md
+- name: Kentico Cloud - Delete an asset by ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-delete
+  description: Removes an unused asset specified by its external ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-delete-openapi.md
+- name: Kentico Cloud - Add an asset
+  x-api-slug: assets-post
+  description: "Use a file reference to link an existing [binary file](https://developer.kenticocloud.com/v1/reference#content-management-api-upload-file)
+    to a new asset. You can also create assets by upserting (`PUT /assets/external-id/<external_id>`),
+    see [Upsert an asset](https://developer.kenticocloud.com/v1/reference#content-management-api-upsert-asset-by-external-id).\r\n\r\n**Note:**
+    Each binary file can be referenced only by a single asset."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assets-post-openapi.md
+- name: Kentico Cloud - View an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-get
+  description: "Modifies properties of an asset specified by its internal ID.\r\n\r\nNote:
+    This endpoint only allows updating of asset descriptions and title."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md
+- name: Kentico Cloud - Update an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-put
+  description: Retrieve a dynamically paginated list of assets.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md
+- name: Kentico Cloud - Delete an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-delete
+  description: Removes an unused asset specified by its internal ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md
+- name: Kentico Cloud - Delete an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-delete
+  description: Removes an unused asset specified by its internal ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md
+- name: Kentico Cloud - Delete an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-delete
+  description: Removes an unused asset specified by its internal ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md
+- name: Kentico Cloud - Delete an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-delete
+  description: Removes an unused asset specified by its internal ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-delete-openapi.md
+- name: Kentico Cloud - Update an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-put
+  description: Retrieve a dynamically paginated list of assets.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md
+- name: Kentico Cloud - Update an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-put
+  description: Retrieve a dynamically paginated list of assets.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-put-openapi.md
+- name: Kentico Cloud - View an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-get
+  description: "Modifies properties of an asset specified by its internal ID.\r\n\r\nNote:
+    This endpoint only allows updating of asset descriptions and title."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md
+- name: Kentico Cloud - View an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-get
+  description: "Modifies properties of an asset specified by its internal ID.\r\n\r\nNote:
+    This endpoint only allows updating of asset descriptions and title."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md
+- name: Kentico Cloud - View an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-get
+  description: "Modifies properties of an asset specified by its internal ID.\r\n\r\nNote:
+    This endpoint only allows updating of asset descriptions and title."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md
+- name: Kentico Cloud - Add an asset
+  x-api-slug: assets-post
+  description: "Use a file reference to link an existing [binary file](https://developer.kenticocloud.com/v1/reference#content-management-api-upload-file)
+    to a new asset. You can also create assets by upserting (`PUT /assets/external-id/<external_id>`),
+    see [Upsert an asset](https://developer.kenticocloud.com/v1/reference#content-management-api-upsert-asset-by-external-id).\r\n\r\n**Note:**
+    Each binary file can be referenced only by a single asset."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assets-post-openapi.md
+- name: Kentico Cloud - Add an asset
+  x-api-slug: assets-post
+  description: "Use a file reference to link an existing [binary file](https://developer.kenticocloud.com/v1/reference#content-management-api-upload-file)
+    to a new asset. You can also create assets by upserting (`PUT /assets/external-id/<external_id>`),
+    see [Upsert an asset](https://developer.kenticocloud.com/v1/reference#content-management-api-upsert-asset-by-external-id).\r\n\r\n**Note:**
+    Each binary file can be referenced only by a single asset."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assets-post-openapi.md
+- name: Kentico Cloud - Delete an asset by ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-delete
+  description: Removes an unused asset specified by its external ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-delete-openapi.md
+- name: Kentico Cloud - Delete an asset by ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-delete
+  description: Removes an unused asset specified by its external ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-delete-openapi.md
+- name: Kentico Cloud - Upsert an asset by external ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-put
+  description: "Add a new asset or update an existing asset specified by its external
+    ID.\r\n\r\n**Note:** If no asset with the specified external ID exists in the
+    project, the system will try to create one. For existing assets, the API updates
+    only the specified asset's descriptions and title."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-put-openapi.md
+- name: Kentico Cloud - Upsert an asset by external ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-put
+  description: "Add a new asset or update an existing asset specified by its external
+    ID.\r\n\r\n**Note:** If no asset with the specified external ID exists in the
+    project, the system will try to create one. For existing assets, the API updates
+    only the specified asset's descriptions and title."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-put-openapi.md
+- name: Kentico Cloud - Upsert an asset by external ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-put
+  description: "Add a new asset or update an existing asset specified by its external
+    ID.\r\n\r\n**Note:** If no asset with the specified external ID exists in the
+    project, the system will try to create one. For existing assets, the API updates
+    only the specified asset's descriptions and title."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-put-openapi.md
+- name: Kentico Cloud - View an asset by external ID
+  x-api-slug: assetsexternalidwhichbrewingfitsyou-get
+  description: Retrieve information about a single asset specified by its external
+    ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-get-openapi.md
 - name: Kentico Cloud - View an asset by external ID
   x-api-slug: assetsexternalidwhichbrewingfitsyou-get
   description: Retrieve information about a single asset specified by its external

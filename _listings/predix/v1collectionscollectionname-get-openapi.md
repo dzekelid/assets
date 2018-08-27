@@ -8,6 +8,7 @@ info:
     Returns the collection name and a list of ids of the assets that belong to
     the collection.
   version: 1.0.0
+host: time-series-service-doc.grc-apps.svc.ice.ge.com
 basePath: /
 schemes:
 - http

@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Assets
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
@@ -45,6 +45,22 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/reposownerreporeleasesassetsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/reposownerreporeleasesassetsid-get-openapi.md
+- name: GitHub - Patch Repos Owner Repo Releases Assets
+  x-api-slug: reposownerreporeleasesassetsid-patch
+  description: |-
+    Edit a release asset
+    Users with push access to the repository can edit a release asset.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/github/reposownerreporeleasesassetsid-patch-openapi.md
 - name: GitHub - Get Repos Owner Repo Releases  Assets
   x-api-slug: reposownerreporeleasesidassets-get
   description: List assets for a release

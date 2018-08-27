@@ -8,6 +8,7 @@ info:
     Returns an array containing the names of all asset collections for the
     specified customer.
   version: 1.0.0
+host: time-series-service-doc.grc-apps.svc.ice.ge.com
 basePath: /
 schemes:
 - http

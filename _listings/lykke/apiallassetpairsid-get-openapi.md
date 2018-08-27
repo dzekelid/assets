@@ -455,6 +455,113 @@ paths:
           description: OK
       tags:
       - Lastbaseassets
+  /api/BaseAsset:
+    get:
+      summary: Get API Baseasset
+      description: Get api baseasset.
+      operationId: ApiBaseAssetGet
+      x-api-path-slug: apibaseasset-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      responses:
+        200:
+          description: OK
+      tags:
+      - Baseasset
+    post:
+      summary: Add API Baseasset
+      description: Add api baseasset.
+      operationId: ApiBaseAssetPost
+      x-api-path-slug: apibaseasset-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: body
+        name: model
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Baseasset
+  /api/Client/balances/{baseAsset}:
+    get:
+      summary: Get API Client Balances Baseasset
+      description: Get api client balances baseasset.
+      operationId: ApiClientBalancesByBaseAssetGet
+      x-api-path-slug: apiclientbalancesbaseasset-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: path
+        name: baseAsset
+      responses:
+        200:
+          description: OK
+      tags:
+      - Client
+      - Balances
+      - Baseasset
+  /api/InvertedAssetPairs:
+    post:
+      summary: Add API Invertedassetpairs
+      description: Add api invertedassetpairs.
+      operationId: ApiInvertedAssetPairsPost
+      x-api-path-slug: apiinvertedassetpairs-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: body
+        name: model
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Invertedassetpairs
+  /api/KycForAsset/{id}:
+    get:
+      summary: Get API Kycforasset
+      description: Get api kycforasset.
+      operationId: ApiKycForAssetByIdGet
+      x-api-path-slug: apikycforassetid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Kycforasset
+  /api/PurchaseAsset:
+    post:
+      summary: Add API Purchaseasset
+      description: Add api purchaseasset.
+      operationId: ApiPurchaseAssetPost
+      x-api-path-slug: apipurchaseasset-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: body
+        name: model
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Purchaseasset
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

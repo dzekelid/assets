@@ -7,11 +7,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddi
 x-kinRank: "9"
 x-alexaRank: "6"
 tags: Assets
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Reddit - Add Subreddit Emoji Asset Upload S3.json
+  x-api-slug: v1subredditemoji-asset-upload-s3-json-postnbsp
+  description: |-
+    Acquire and return an upload lease to s3 temp bucket. The return value
+    of this function is a json object containing credentials for uploading
+    assets to S3 bucket, S3 url for upload request and the key to use for
+    uploading. Using this lease the client will upload the emoji image to
+    S3 temp bucket (included as part of the S3 URL).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/reddit/v1subredditemoji-asset-upload-s3-json-postnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assets/master/_listings/reddit/v1subredditemoji-asset-upload-s3-json-postnbsp-openapi.md
 - name: Reddit - Add Subreddit Emoji Asset Upload S3.json
   x-api-slug: v1subredditemoji-asset-upload-s3-json-postnbsp
   description: |-
